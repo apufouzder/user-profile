@@ -8,7 +8,7 @@ import logo from './logo.svg';
 
 function App() {
   const [cart, setCart] = useState([]);
-  const first10 = usersData.slice(0,10)
+  // const first10 = usersData.slice(0,10)
 
   const handleAddCart = (user) =>{
     const newCart = [...cart, user];
@@ -25,7 +25,7 @@ function App() {
         <div className="user-profile">
           <div>
             {
-              first10.map((user) => {
+              usersData.map((user) => {
                 return (
                   <User key={user.id} user={user} handleAddCart={handleAddCart}></User>
                 )

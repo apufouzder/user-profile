@@ -138,6 +138,33 @@ const userData = [
         "email": "Rana.Khan@karina.biz",
         "phone": "024-648-1025",
         "salary":18000
+      },
+      {
+        "id": 16,
+        "name": "Rita Mojumdar",
+        "username": "Rita.Khan",
+        "img":"https://randomuser.me/api/portraits/med/men/26.jpg",
+        "email": "Rita.Khan@karina.biz",
+        "phone": "024-562-1025",
+        "salary":1000
+      },
+      {
+        "id": 17,
+        "name": "Apu Fouzder",
+        "username": "apu vai",
+        "img":"https://randomuser.me/api/portraits/med/men/27.jpg",
+        "email": "apufouzder5236.biz",
+        "phone": "024-562-0215",
+        "salary":1700
+      },
+      {
+        "id": 17,
+        "name": "Ratan Mondal",
+        "username": "ratanmondal",
+        "img":"https://randomuser.me/api/portraits/med/men/28.jpg",
+        "email": "ratanmondal.biz",
+        "phone": "562-562-1025",
+        "salary":5000
       }
   ]
 
